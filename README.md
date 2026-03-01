@@ -9,7 +9,7 @@ You bring the subject. You decide what “good” means. The engine helps you ru
 
 ---
 
-## What this gives you (in plain terms)
+## What this gives you
 
 If you’ve ever tried to “get better” at something and drifted after a week, this is the fix:
 

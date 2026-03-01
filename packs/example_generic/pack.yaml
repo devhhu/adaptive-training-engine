@@ -1,0 +1,33 @@
+name: "Example Generic Pack"
+slug: "example_generic"
+version: "0.1.0"
+description: "Toy pack showing how to define tracks/modules/topics for any subject."
+default_track: "core"
+
+tracks:
+  core:
+    description: "General learning loop (recall → apply → review)"
+    modules: ["fundamentals", "applied", "review"]
+  deep_dive:
+    description: "Harder prompts + tighter constraints"
+    modules: ["applied", "review"]
+
+modules:
+  fundamentals:
+    tier: 1
+    topics:
+      - "core_concepts"
+      - "common_mistakes"
+      - "quick_recall"
+  applied:
+    tier: 1
+    topics:
+      - "scenario_reasoning"
+      - "constraints_and_tradeoffs"
+      - "debugging_thinking"
+  review:
+    tier: 2
+    topics:
+      - "summarize"
+      - "extract_takeaways"
+      - "next_session_plan"

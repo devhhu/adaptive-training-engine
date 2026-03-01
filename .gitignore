@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets / env
+.env
+*.key
+*.pem
+
+# Local outputs (never commit)
+lab/
+
+# OS
+.DS_Store
+
+# Local outputs
+lab/

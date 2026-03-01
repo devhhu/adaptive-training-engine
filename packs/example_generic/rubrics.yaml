@@ -1,0 +1,7 @@
+rubrics:
+  scoring:
+    scale: [1,2,3,4,5]
+    anchors:
+      1: "Incorrect or no reasoning"
+      3: "Partially correct with gaps"
+      5: "Correct, clear reasoning, tradeoffs stated"

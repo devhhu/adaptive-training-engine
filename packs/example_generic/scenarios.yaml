@@ -1,0 +1,11 @@
+scenarios:
+  ambiguous_problem:
+    module: "applied"
+    stages: 3
+    constraints_ladder:
+      - "baseline"
+      - "missing_visibility"
+      - "limited_actions"
+    instructions:
+      - "Present Stage 1, then wait."
+      - "After my response, score and continue."

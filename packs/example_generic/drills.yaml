@@ -1,0 +1,9 @@
+drills:
+  quick_drill:
+    module: "fundamentals"
+    question_count: 6
+    difficulty_profile: ["easy", "easy", "medium", "medium", "hard", "hard"]
+    instructions:
+      - "Ask ONE question at a time."
+      - "Wait for my answer."
+      - "Score 1-5 and give brief feedback."
